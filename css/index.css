@@ -1,0 +1,26 @@
+body {
+    background: yellow;
+}
+
+#header__logo {
+    font-family: 'Major Mono Display', monospace;
+}
+
+nav {
+    overflow: hidden;
+    float: right;
+}
+
+nav li {
+    float: left;
+    padding-left: 5px;
+    list-style: none;
+}
+
+main {
+    text-align: center;
+}
+
+#product {
+    text-align: left;
+}
