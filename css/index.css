@@ -24,3 +24,12 @@ main {
 #product {
     text-align: left;
 }
+
+#pasikaKarpaty__img {
+    display: flex;
+    justify-content: center;
+}
+
+#basket__order {
+    border: 1px solid black;
+}
