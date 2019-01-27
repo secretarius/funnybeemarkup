@@ -25,11 +25,6 @@ main {
     text-align: left;
 }
 
-#pasikaKarpaty__img {
-    display: flex;
-    justify-content: left;
-}
-
 table, tr, td {
     border: 5px solid black;
     border-collapse: collapse;
