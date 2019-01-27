@@ -1,5 +1,5 @@
 body {
-    background: yellow;
+    background-color: yellow;
 }
 
 #header__logo {
@@ -27,9 +27,10 @@ main {
 
 #pasikaKarpaty__img {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
-#basket__order {
-    border: 1px solid black;
+table, tr, td {
+    border: 5px solid black;
+    border-collapse: collapse;
 }

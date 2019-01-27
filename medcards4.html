@@ -27,28 +27,35 @@
         </nav>
     </header>
     <main>
-            <h3>Оформлення замовлення:</h3>
-           <table style="width:100%">
-              <tr>
-                <th>Назва товару:</th>
-                    <td>Ціна</td><td>Кількість</td><td>Всьго:</td>
-              </tr>
-              <tr>
-                <th rowspan="2"></th>
-              <td>0</td><td>0</td><td>0</td>
-              </tr>
-              </table>
-        <form method="POST" action="https://formspree.io/4dtggroup@gmail.com">
-             <label for="name">Ваше Ім'я та Прізвище:</label>
-                     <input id="name" type="text" placeholder="Ім'я Прізвище:" required ><br>
-                <label for="email">Ваша електронна пошта:</label>
-        		    <input id="email" type="email" placeholder="E-mail"><br>
-        		<label for="phone">Ваш телефон:</label>
-        		    <input id="phone" type="text" placeholder="+38(0--)000-00-00"><br>
-        		<label for="message">Ваше повідомлення:</label>
-        		    <textarea id="message" placeholder="Повідомлення:"></textarea><br>
-                    <input type="submit" value="Send">
-        </form>
+        <section id="order">
+            <h3>Замовити:</h3>
+            
+            <form>
+        	    
+            <section id="med1__img">
+                <img src="img/medhrechany.jpg" height="200" width="200"alt="Мед гречаний">
+            <h2>150 грн.</h2>
+            <h1>Ціна за 250 грам</h1>
+            </section>
+                 <label for="name">Гречаний</label>
+                 <input type="checkbox" id="name" placeholder="Name" required name="honey">
+                 <br>
+                 
+                 <input type="submit" value="Додати до кошика">
+            <br>
+
+            </form>
+            </p>
+        </section>
+        <section id="order">
+            <h3>Замовити продукцію</h3>
+            <form method="POST" action="https://formspree.io/4dtggroup@gmail.com"
+        	    <input type="text" placeholder="Name" required ><br>
+        		<input type="email" placeholder="E-mail"><br>
+        		<textarea placeholder="Message"></textarea><br>
+                <input type="submit" value="Send">
+        	</form>
+        </section>
     </main>
     <footer>
         <div>
