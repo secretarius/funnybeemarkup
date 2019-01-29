@@ -1,18 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"');
+:root {
+    font-family: 'Comfortaa', cursive;
+    --main-color: yellow;
+    --accent-color: white;
+}
 body {
-    background-color: yellow;
+    max-width: 980px;
+    margin: auto;
+    background-image: url(../img/fon.jpg);
+    background-color: var(--main-color);
 }
-
-#header__logo {
-    font-family: 'Major Mono Display', monospace;
+header .header-logo {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
 }
 
-nav {
-    overflow: hidden;
-    float: right;
+header-img {
+    display: inline-block;
 }
 
-nav li {
+header .header-logo-text {
+    display: inline-block;
+    font-family: 'Major Mono Display', monospace;
+    margin: 0px 10px 0px 10px;
+}
+
+header .header-logo a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 3rem;
+}
+
+header .header-logo-slogan {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+header .menu {
+   display: flex;
+   
+}
+
+header .menu li {
+    list-style-type: none;
+}
+
+header .menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: var(--main-color);
+}
+
+header .menu li a:hover {
+    text-decoration: underline;
+}
+
+/*nav li {
     float: left;
     padding-left: 5px;
     list-style: none;
@@ -29,4 +76,4 @@ main {
 table, tr, td {
     border: 5px solid black;
     border-collapse: collapse;
-}
+} */
