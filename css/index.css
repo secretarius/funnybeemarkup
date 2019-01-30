@@ -4,7 +4,7 @@
 :root {
     font-family: 'Comfortaa', cursive;
     --main-color: black;
-    --accent-color: white;
+    --accent-color: green;
 }
 
 body {
@@ -36,8 +36,8 @@ header .menu li {
 header .menu li a {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1rem;
-    color: var(--menu-color);
+    color: var(--accent-color);
+    font-weight: bold;
 }
 
 header .menu li a:hover {
@@ -83,6 +83,7 @@ main h1 {
 
 .aboutus-article p {
     margin-left: 10px;
+    font-weight: bold;
 }
 
 footer h2 {
