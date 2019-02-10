@@ -12,7 +12,6 @@ body {
     max-width: 980px;
     margin: auto;
     background-image: url(../img/fonsota.png);
-
 }
 
 .clock {
@@ -20,6 +19,18 @@ body {
     font-weight: bold;
     color: var(--second-color);
     padding: 0;
+}
+
+.currency-continer {
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-right: 10px;
+}
+
+.update-currency {
+    font-weight: bold;
+    color: var(--accent-color);
+    text-align: right;
 }
 
 header .logo {
@@ -71,7 +82,7 @@ header .menu li a:hover {
     }
 }
 
-header .slider-container {
+main .slider-container {
     background-image: url(../img/girleat.png);
     background-position: center;
     background-size: cover;
@@ -80,6 +91,7 @@ header .slider-container {
 
 main h1 {
     text-align: center;
+    color: var(--accent-color); 
 }
     
 .aboutus-article {
@@ -100,6 +112,7 @@ main h1 {
 
 footer h2 {
     text-align: center;
+    color: var(--accent-color);
 }
 
 footer p {
@@ -108,6 +121,7 @@ footer p {
 
 footer .contact-us {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 35px;
     padding: 0;
@@ -118,12 +132,12 @@ footer .contact-us {
 }
 
 footer .map {
-    margin: 25px 0 0 35px;
+    margin: 25px 0 0 40px;
 }
 
 footer .social {
     display: flex;
-    margin: 10px 10px 0 150px;
+    margin: 10px 10px 0 50px;
 }
 
 footer .social button {
@@ -138,7 +152,6 @@ footer .social button {
 }
 
 .copyright {
-    font-weight: bold;
     color: var(--second-color);
     padding: 0;
 }
