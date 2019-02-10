@@ -5,6 +5,7 @@
     font-family: 'Comfortaa', cursive;
     --main-color: black;
     --accent-color: green;
+    --second-color: orange;
 }
 
 body {
@@ -13,18 +14,26 @@ body {
     background-image: url(../img/fonsota.png);
 
 }
+
+.clock {
+    text-align: right;
+    font-weight: bold;
+    color: var(--second-color);
+    padding: 0;
+}
+
 header .logo {
     font-family:'Comfortaa', cursive;
     font-size: 4rem;
     text-align: center;
     margin: 24px auto;
     font-weight: bold;
-    color: orange;
+    color: var(--second-color);
 }
 
 header .menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 35px;
     padding: 0;
@@ -56,6 +65,7 @@ header .menu li a:hover {
     }
     
     header nav .menu {
+        justify-content: space-around;
         align-items: center;
         flex: 1;
     }
@@ -116,14 +126,22 @@ footer .social {
     margin: 10px 10px 0 150px;
 }
 
+footer .social button {
+    border: 0;
+    background-color: inherit;
+}
+
 @media (min-width: 480px) {
     footer .contact-us {
         display: flex;
        }
 }
 
-
-
+.copyright {
+    font-weight: bold;
+    color: var(--second-color);
+    padding: 0;
+}
 
 table, tr, td {
     border: 5px solid orange;
