@@ -5,7 +5,7 @@ setInterval(function() {
 
 window.addEventListener('load', getCurrency)
 document.querySelector('.update-currency')
-    .addEventListener('click', getCurency)
+    .addEventListener('click', getCurrency)
 function getCurrency(){
     const xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function(){
