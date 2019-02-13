@@ -58,7 +58,7 @@ header .menu li a {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--accent-color);
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 header .menu li a:hover {
@@ -66,7 +66,7 @@ header .menu li a:hover {
     color: orange;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 760px) {
     header nav {
         display: flex;
     }
@@ -145,7 +145,7 @@ footer .social button {
     background-color: inherit;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 760px) {
     footer .contact-us {
         display: flex;
        }
@@ -154,6 +154,10 @@ footer .social button {
 .copyright {
     color: var(--second-color);
     padding: 0;
+}
+
+.products {
+    text-align: center;
 }
 
 table, tr, td {
