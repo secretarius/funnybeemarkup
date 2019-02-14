@@ -21,20 +21,28 @@ body {
     padding: 0;
 }
 
-.currency-continer {
-    font-weight: bold;
-    color: var(--accent-color);
-    margin-right: 10px;
-}
+/*.currency-continer {*/
 
-.update-currency {
-    font-weight: bold;
-    color: var(--accent-color);
-    text-align: right;
-}
+/*    font-weight: bold;*/
+
+/*    color: var(--accent-color);*/
+
+/*    margin-right: 10px;*/
+
+/*}*/
+
+/*.update-currency {*/
+
+/*    font-weight: bold;*/
+
+/*    color: var(--accent-color);*/
+
+/*    text-align: right;*/
+
+/*}*/
 
 header .logo {
-    font-family:'Comfortaa', cursive;
+    font-family: 'Comfortaa', cursive;
     font-size: 4rem;
     text-align: center;
     margin: 24px auto;
@@ -70,11 +78,11 @@ header .menu li a:hover {
     header nav {
         display: flex;
     }
-    
+
     header .logo {
         margin: 24px 10px;
     }
-    
+
     header nav .menu {
         justify-content: space-around;
         align-items: center;
@@ -83,17 +91,22 @@ header .menu li a:hover {
 }
 
 /*main .slider-container {*/
+
 /*    background-image: url(../img/girleat.png);*/
+
 /*    background-position: center;*/
+
 /*    background-size: cover;*/
+
 /*    min-height: 400px;*/
+
 /*}*/
 
 main h1 {
     text-align: center;
-    color: var(--accent-color); 
+    color: var(--accent-color);
 }
-    
+
 .aboutus-article {
     display: flex;
     justify-content: flex-start;
@@ -148,7 +161,7 @@ footer .social button {
 @media (min-width: 760px) {
     footer .contact-us {
         display: flex;
-       }
+    }
 }
 
 .copyright {
@@ -160,7 +173,9 @@ footer .social button {
     text-align: center;
 }
 
-table, tr, td {
+table,
+tr,
+td {
     border: 5px solid orange;
     border-collapse: collapse;
-} 
+}
